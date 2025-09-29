@@ -1,52 +1,52 @@
-# 🔁 Loops in C++
+Loops in C++
 
-## 🎯 Aim  
+Aim  
 To explore the use of **for**, **while**, and **do-while** loops in C++ through examples like star patterns, reversing numbers, password masking, and plus pattern generation.
 
 ---
 
-## 📚 Theory  
+Theory  
 
 Loops in C++ are control flow structures that allow the repeated execution of a block of code.  
 They are used to automate repetitive tasks, iterate over collections or ranges, and simplify complex algorithmic operations.
 
 ---
 
-## 🔢 For Loop  
+For Loop  
 Used when the number of iterations is known beforehand.  
 It includes initialization, condition check, and increment/decrement.  
 Ideal for counter-controlled loops and fixed iterations.
 
 ---
 
-## 🔁 While Loop  
+While Loop  
 Used when the number of iterations is not known in advance.  
 The condition is checked **before** the loop body.  
 If true, the block executes; if false, the loop exits immediately.
 
 ---
 
-## 🔂 Do-While Loop  
+Do-While Loop  
 Similar to the while loop but guarantees the loop body runs **at least once**, since the condition is checked **after** the execution of the block.  
 Perfect for input validation and menu loops.
 
 ---
 
-## 📊 Comparison Table
+Comparison Table
 
 | Feature                    | `for` Loop                         | `while` Loop                      | `do-while` Loop                     |
 |---------------------------|-------------------------------------|-----------------------------------|-------------------------------------|
 | Condition Check           | Before loop starts                  | Before loop starts                | After loop body executes            |
 | Use Case                  | When iterations are known           | When condition must be evaluated before entry | When loop must run at least once |
 | Initialization & Update   | Included in loop declaration        | Must be done separately           | Must be done separately             |
-| Executes at Least Once?   | ❌ No                                | ❌ No                              | ✅ Yes                               |
+| Executes at Least Once?   |No                                |No                              |Yes                               |
 | Syntax Simplicity         | Compact for counter-controlled loops | More flexible with condition-only | Useful for menus or retry prompts   |
 
 ---
 
-## 📋 Algorithms
+Algorithms
 
-### ✅ Inverse Right Triangle Pattern  
+Inverse Right Triangle Pattern  
 
 1. Start  
 2. Input: Read the desired height of the triangle `n` from the user  
@@ -62,7 +62,7 @@ Perfect for input validation and menu loops.
 
 ---
 
-### ✅ Reverse PRN
+Reverse PRN
 
 1. Start  
 2. Input: Read an integer PRN from the user  
@@ -75,7 +75,7 @@ Perfect for input validation and menu loops.
 
 ---
 
-### ✅ Password Masking and Validation
+Password Masking and Validation
 
 1. Start  
 2. Initialize a string `password` with predefined value  
@@ -95,7 +95,7 @@ Perfect for input validation and menu loops.
 
 ---
 
-### ✅ Plus (`+`) Pattern  
+Plus (`+`) Pattern  
 
 1. Start  
 2. Input: Read an **odd** integer `n`  
@@ -109,7 +109,7 @@ Perfect for input validation and menu loops.
 
 ---
 
-## 🧠 Conclusion  
+Conclusion  
 
 Loops are fundamental to automating repetitive logic in C++.  
 Whether you're iterating with a for loop, reacting dynamically with while, or ensuring execution with do-while, these structures are essential for efficient and dynamic programming.  
